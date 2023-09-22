@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Immutable Real Estate System</title>
+	<link rel="stylesheet" type="text/css" href="../assests/home.css">
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdW3AqfzIhtXe1Zd7u0pwFEK2MInJp_Hw"></script>
+	<script src="../js/map.js"></script>
+</head>
+<body>
+	<div class="sidebar">
+		<div class="s-top-part">
+		  <img src="../assests/logo.png" height="50" width="100">
+		</div>
+		<div class="top-part">
+			<h2> Control Panel</h2>
+		  </div>
+		<ul>
+		  <li><a href="/admin"><i class="fas fa-user-shield"></i> Admin</a></li>
+		  <li><a href="/dealer"><i class="fas fa-users"></i> Dealer</a></li>
+		  <li><a href="/public"><i class="fas fa-building"></i> Property</a></li>
+		  <li><a href="/owner"><i class="fas fa-user"></i> Owner</a></li>
+		  <li><a href="/metamask"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+		</ul>
+		<div class="qr">
+
+			<img src="../assests/download.png" height="100" width="100">
+		</div>
+	
+	  </div>
+	 
+
+	<div class="map-container">
+		
+			<div class="input-container">
+				<input type="text" id="address-input" placeholder="Get your property location">
+				<button id="search-button">Search</button>
+			</div>
+	
+
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13627.77380897464!2d-97.74306099999999!3d30.267153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x579f966012b82f31!2sTexas%20State%20Capitol!5e0!3m2!1sen!2sus!4v1620687758839!5m2!1sen!2sus" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	
+		</div>
+		
+			<div class="popup-container" id="popup-content"> <!-- Change this to "popup-content1" -->
+				<p id="popup-content1"></p>
+			</div>
+			
+		</div>
+	
+	<script src="/static/jquery/dist/jquery.min.js"></script>
+<script src="/static/web3/dist/web3.min.js"></script>
+<script  src="../assests/configuration/web3_configuration.js"></script>
+<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script src="../assests/dapp operation/map.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
+
+	
+	

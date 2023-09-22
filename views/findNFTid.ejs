@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assests/nftID.css">
+</head>
+<body>
+    <%- include('publicsidebar.ejs') %>
+	
+	<div class="container">
+		<h1>NFT ID Checker</h1>
+    <label for="registryNo">Enter Registry No:</label>
+    <input type="number" id="registryNo">
+    <button id="submit">Check</button>
+    <div id="resultContainer">
+        <h2 id="dis">NFT ID :</h2>
+        <h1  id="nftid"></h1>
+      </div>
+      <div class="message-box">
+        <p id="message">Transaction message... </p>
+      </div>
+    </div>
+
+	</div>
+  <script src="/static/jquery/dist/jquery.min.js"></script>
+<script src="/static/web3/dist/web3.min.js"></script>
+<script  src="../assests/configuration/web3_configuration.js"></script>
+<script  src="../assests/configuration/contract_configuration.js"></script>
+<script  src="../assests/dapp operation/checkNFTID.js"></script>
+</body>
+</html>
+
+

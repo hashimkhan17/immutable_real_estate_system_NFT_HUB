@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assests/nftowner.css">
+</head>
+<body>
+    <%- include('publicsidebar.ejs') %>
+	
+	<div class="container">
+        <h1>View NFT owner details</h1>
+    <p>in this we have two way for checking any property owner related details</p>
+        <!-- Input field for eTokenId -->
+        <div class="input-group">
+          <label for="eTokenId">Enter eToken ID:</label>
+          <input type="number" id="eTokenId" placeholder="eToken ID">
+          <button id="submit">Get Owner</button>
+          <label for="eTokenId"> Enter Registry No:</label>
+          <input type="number" id="eRegistry" placeholder="Registry No">
+          <button class="submit1">Get Owner</button>
+        </div>
+        <table id="ownerTable">
+          <tr>
+            <th>Owner Name</th>
+            <th>Owner CNIC</th>
+            <th>Owner Address</th>
+            <th>Owner Ethereum Address</th>
+          </tr>
+        </table>
+        <!-- Display area for the results -->
+        <div class="results" id="results">
+          <!-- The result of the function call will be displayed here in a table form -->
+        </div>
+        <div id="errorPopup" class="popup">
+          <div class="popup-content">
+            <h2>Error</h2>
+            <p id="message"> Transaction message</p>
+            <button id="closePopup">Close</button>
+          </div>
+        </div>
+      </div>
+
+	</div>
+  <script src="/static/jquery/dist/jquery.min.js"></script>
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/ownerOfTOken.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+/* Styles for the sidebar */
+.sidebar {
+	background-color: #333;
+	color: #fff;
+	height: 100%;
+	position: fixed;
+	width: 300px;
+	padding-top: 20px;
+}
+
+.sidebar a {
+	color: #fff;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* Styles for the container */
+.container {
+	margin-left: 300px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #f8f8f8;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden; /* Ensure the slider doesn't overflow the container */
+  }
+  
+  .slider {
+	display: flex; /* Display the slides side by side */
+	transition: transform 0.5s ease-in-out; /* Add smooth slide transition */
+  }
+  
+  .slide {
+	flex: 0 0 100%; /* Make each slide take up the full width of the container */
+	max-width: 100%; /* Ensure images don't exceed their original width */
+	height: 710px; 
+	padding: 0;/* Maintain aspect ratio */
+  }
+ 
+  
+  
+  
+
+header {
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #008CBA;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: block;
+}
+
+nav ul li a {
+	color: #fff;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* Styles for the content section */
+.content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+/* Styles for the form */
+.form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+	margin-top: 0px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.home-icon {
+    font-size: 40px;
+  }
+  
+
+  

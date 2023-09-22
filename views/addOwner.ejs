@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dealer Registration Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet"  href="../../assests/addowner.css">
+	
+</head>
+<body>
+	<%- include('dealersidebar.ejs') %>
+	<div class="container">
+        <div class="card">
+			<h1>Owner Details DApp</h1>
+        
+			<label for="ownerName">Owner Name:</label>
+			<input type="text" id="ownerName"><br>
+		  
+			<label for="ownerCnic">Owner CNIC:</label>
+			<input type="number" id="ownerCnic"><br>
+		  
+			<label for="ownerAddress">Owner Address:</label>
+			<input type="text" id="ownerAddress"><br>
+		  
+			<label for="ownerEthereumAddress">Owner Ethereum Address:</label>
+			<input type="text" id="ownerEthereumAddress"><br>
+		  
+			<button id = "submit" >Submit</button>
+			<div class="message-box">
+			  <p id="message">Transaction message... </p>
+		  </div>
+		  
+		</div>
+        
+	</div>
+	<!-- Link to jQuery library using a CDN -->
+	
+	<script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/registerOwner.js"></script>
+	<!-- <script  src="../assests/configuration/check.js"></script> -->
+	<!-- javascript folder\configuration\web3_configuration.js -->
+</body>
+</html>

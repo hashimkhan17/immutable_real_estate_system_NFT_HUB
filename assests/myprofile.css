@@ -1,0 +1,94 @@
+/* Reset some default styles to avoid browser inconsistencies */
+body
+{
+ background-color: #f8f8f8;
+}
+ 
+ /* Styles for the container */
+ .container {
+   margin-left: 300px;
+   height: 730px;
+   text-align: center;
+   background-color: #f8f8f8;
+ }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px;
+    transition: background-color 0.3s;
+    margin-top: 50px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #ownerTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    text-align: center;
+  
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  /* Hide the table initially and show it after retrieving the profile */
+
+    
+#errorPopup{
+  display: none;
+  position: fixed;
+  margin-top: 100px;
+ margin : auto;
+ position: relative;
+  width: 30%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background-color: white;
+  padding-top: 60px;
+  border-radius: 5px;
+}
+#closePopup
+{
+
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}

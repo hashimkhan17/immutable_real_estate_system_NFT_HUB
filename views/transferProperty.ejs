@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assests/transfernft.css">
+</head>
+<body>
+    <%- include('ownersidebar.ejs') %>
+	
+	<div class="container">
+        <h1>Transfer NFT</h1>
+        <label for="from">From Address:</label>
+        <input type="text" id="from" placeholder="Ethereum Address">
+        <label for="to">To Address:</label>
+        <input type="text" id="to" placeholder="Ethereum Address">
+        <label for="tokenId">Token ID:</label>
+        <input type="number" id="tokenId" min="0"><br>
+        <button id="submit">Transfer</button>
+        <div id="resultContainer">
+          
+          <div class="message-box">
+            <p id="message">Transaction message... </p>
+          </div>
+        </div>
+	</div>
+  <script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/transferNFT.js"></script>
+</body>
+</html>
+
+

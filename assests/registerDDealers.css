@@ -1,0 +1,133 @@
+
+.container {
+  margin-left: 300px;
+  height: 730px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-style: solid;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: #fff;
+  
+}
+
+
+th {
+  background-color: #0047AC;
+  /* Add separation border on the left */
+  text-align: center;
+
+}
+
+col 
+{
+  border-style: solid;
+  border-width: 4px;
+}
+th:first-child {
+  border-left: none; /* Remove the left border for the first table header */
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+  text-align: center;
+   color: #022937;
+}
+tr:nth-child(odd)
+{
+  background-color: #afafab;
+  text-align: center;
+  color: #fff;
+}
+tr td
+{
+  text-align: center;
+}
+/* Button style */
+#showResultsBtn {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#showResultsBtn:hover {
+  background-color: #3367d6;
+}
+
+#showResultsBtn:focus {
+  outline: none;
+}
+
+#showResultsBtn:active {
+  background-color: #2a5bae;
+}
+
+#showResultsBtn[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+  
+#errorPopup{
+  display: none;
+  position: fixed;
+  margin-top: 100px;
+ margin : auto;
+ position: relative;
+  width: 30%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background-color: white;
+  padding-top: 60px;
+  border-radius: 5px;
+}
+#closePopup
+{
+
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}

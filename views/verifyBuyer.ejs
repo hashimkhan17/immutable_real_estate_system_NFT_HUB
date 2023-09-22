@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="../../assests/addowner.css">
+</head>
+<body>
+    <%- include('ownersidebar.ejs') %>
+	
+	<div class="container">
+        <h1>Buyer Data Existence Checker</h1>
+        <p>Enter Owner Ethereum Address:</p>
+        <input type="text" id="eth_address"><br>
+        <button id ='submit' onclick="checkOwnerDataExist()">Check</button>
+        <div class="message-box">
+			<p id="message">Transaction message... </p>
+		</div>
+	</div>
+    <script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/checkownerdataExist.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Property Details Form</title>
+    <!-- Link your CSS file here -->
+    <link rel="stylesheet" href="../assests/createnft.css">
+</head>
+<body> <%- include('dealersidebar.ejs') %>
+    <div class="container">
+        <div id="container1">
+            <h1>NFT GENERATOR</h1>
+            <label for="eth_address">Owner Ethereum Address</label>
+            <input type="text" id="eth_address" required> <br>
+    
+            <label for="society_name">Enter Society Name</label>
+            <input type="text" id="society_name" required><br>
+    
+            
+                <label for="plot_phase">Enter Property Phase</label>
+                <input type="text" id="plot_phase" required><br>
+    
+                <label for="Street_no">Enter Street No</label>
+                <input type="text" id="Street_no" required><br>
+           
+                <label for="Plot_no">Enter Plot No</label>
+                <input type="text" id="Plot_no" required><br>
+    
+                <label for="Registry_no">Enter Property Registry No</label>
+                <input type="text" id="Registry_no" required><br>
+            
+    
+            <label for="property_area">Enter Property Area</label>
+            <input type="text" id="property_area" required><br>
+    
+            <label for="gps_location">Enter Property GPS Location</label>
+            <input type="text" id="gps_location" required><br>
+    
+            <label for="Property_nature">Enter Property Land Nature</label>
+            <input type="text" id="Property_nature" required><br>
+    
+            <button type="submit" id="submit">Submit</button>
+        
+    
+        <div class="message-box">
+            <p id="message">Transaction message... </p>
+        </div>
+        </div>
+    </div>
+    
+	<script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/mintNFT.js"></script>
+</body>
+</html>

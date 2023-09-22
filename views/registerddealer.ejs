@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dealers List</title>
+  <link rel="stylesheet" type="text/css" href="../../assests/RegisterDDealers.css">
+</head>
+<body>
+  <%- include('adminSidebar.ejs') %> 
+  <div class="container">
+    <h1>Dealers List</h1>
+    <table id="dealersTable">
+      <tr>
+        <th>Franchise ID</th>
+        <th>Franchise Address</th>
+        <th>Ethereum Address</th>
+        <!-- Add more table headers for additional properties -->
+      </tr>
+    </table>
+    <button id="showResultsBtn">Show Results</button>
+    <div id="errorPopup" class="popup">
+      <div class="popup-content">
+        <h2>Error</h2>
+        <p id="message"> Transaction message</p>
+        <button id="closePopup">Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="/static/jquery/dist/jquery.min.js"></script>
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/registerd_Dealers.js"></script>
+</body>
+</html>

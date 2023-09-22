@@ -1,0 +1,33 @@
+.sidebar {
+    background-color: #008CBA;
+    color: #fff;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 70px;
+    font-weight: 800px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home-icon {
+    font-size: 40px;
+  }
+
+  .sidebar a:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+      }
+.qr
+{
+	margin: auto;
+	margin-top: 35px;
+	text-align: center;
+}

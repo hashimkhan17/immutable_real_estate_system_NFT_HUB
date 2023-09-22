@@ -1,0 +1,29 @@
+/* Styles for the container */
+.container {
+	margin-left: 300px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #f8f8f8;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden; /* Ensure the slider doesn't overflow the container */
+  }
+  
+  .slider {
+	display: flex; /* Display the slides side by side */
+	transition: transform 0.5s ease-in-out; /* Add smooth slide transition */
+  }
+  
+  .slide {
+	flex: 0 0 100%; /* Make each slide take up the full width of the container */
+	max-width: 100%; /* Ensure images don't exceed their original width */
+	height: 710px; 
+	padding: 0;/* Maintain aspect ratio */
+  }
+
+.qr
+{
+	margin: auto;
+	margin-top: 35px;
+	text-align: center;
+}

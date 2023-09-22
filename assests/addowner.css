@@ -1,0 +1,64 @@
+/* admin.css */
+
+/* Global Styles */
+.container {
+  margin-left: 300px;
+  height: 730px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+  h1 {
+    text-align: center;
+  }
+  body{
+    background-color: #f8f8f8;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 42.15%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .message-box {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 38.4%;
+    margin-left: 29%;
+    margin-right: 30%;
+    border-style: solid;
+    border-left: 4px;
+    border-right: 4px;
+    border-color: #0d0d0d;
+    color: #000000;
+    margin-top: 20px;
+   
+  }
+  
+  /* Optional: Adjust the styles for the sidebar element */
+  /* If you are using 'dealersidebar.ejs', update its CSS accordingly */
+  /* Alternatively, you can remove this if the sidebar is not styled here */
+  /* You can also include additional CSS files as needed */
+ 

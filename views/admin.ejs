@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dealer Registration Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet"  href="../../assests/admin.css">
+	
+</head>
+<body>
+	<%- include('adminSidebar.ejs') %>
+	<div class="container">
+		<header>
+			<h1>Register new dealer</h1>
+		</header>
+		
+		<main>
+			
+				<label for="unique_id">Dealer Unique ID</label>
+				<input type="text" id="unique_id" required><br>
+				<label for="eth_address">Dealer Ethereum Address</label>
+				<input type="text" id="eth_address" required placeholder="example : 0x71C7656EC7ab88b098defB751B7401B5f6d897">
+
+				<label for="location">Dealer Location</label>
+				<input type="text" id="location" required><br>
+
+				
+
+				<button type="submit" id = "submit" >Submit</button>
+		
+
+			<div class="message-box">
+				<p id="message">Transaction message... </p>
+			</div>
+		</main>
+	</div>
+	<!-- Link to jQuery library using a CDN -->
+	
+	<script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+	<script  src="../assests/dapp operation/add_dealer.js"></script>
+	<!-- <script  src="../assests/configuration/check.js"></script> -->
+	<!-- javascript folder\configuration\web3_configuration.js -->
+</body>
+</html>

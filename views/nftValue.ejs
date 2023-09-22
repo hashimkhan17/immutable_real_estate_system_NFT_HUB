@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>propertyNftStoreValue Function Call</title>
+  <link rel="stylesheet" href="../assests/nftvalue.css">
+</head>
+<body>
+    <%- include('publicsidebar.ejs') %>
+  <div class="container">
+    <h1>View NFT details</h1>
+
+    <!-- Input field for NftId -->
+    <div class="input-group">
+      <label for="nftId">NFT ID:</label>
+      <input type="number" id="eTokenId" placeholder="eToken ID">
+      <button id="submit">Get Information</button>
+   </div>
+   <div class="center1">
+    <table id="NFTTable">
+      <tr>
+        <th>Housing society</th>
+        <th>Phase</th>
+        <th>Street No</th>
+        <th>Plot No</th>
+        <th> Registry No</th>
+        <th>Plot Area</th>
+        <th>Land Location</th>
+        <th>Land Nature</th> 
+      </tr>
+    </table>
+   </div>
+  
+
+
+<div id="errorPopup" class="popup">
+  <div class="popup-content">
+    <h2>Error</h2>
+    <p id="message"> Transaction message</p>
+    <button id="closePopup">Close</button>
+  </div>
+</div>
+      
+  </div>
+  <script src="/static/jquery/dist/jquery.min.js"></script>
+
+	<script src="/static/web3/dist/web3.min.js"></script>
+	<script  src="../assests/configuration/web3_configuration.js"></script>
+	<script  src="../assests/configuration/contract_configuration.js"></script>
+  <script src="../assests/dapp operation/nftinformation.js"></script>
+</body>
+</html>

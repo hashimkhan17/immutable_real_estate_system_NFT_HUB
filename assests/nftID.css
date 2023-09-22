@@ -1,0 +1,88 @@
+/* Reset some default styles to avoid browser inconsistencies */
+body
+{
+ background-color: #f8f8f8;
+}
+ 
+ /* Styles for the container */
+ .container {
+   margin-left: 300px;
+   height: 730px;
+   text-align: center;
+   background-color: #f8f8f8;
+ }
+  /* Reset some default styles to avoid browser inconsistencies */
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+   
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  #resultContainer {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-left: -40px;
+  }
+  
+  p {
+    font-size: 16px;
+    
+  }
+  .message-box {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 38.4%;
+    margin-left: 29%;
+    margin-right: 30%;
+    border-style: solid;
+    border-left: 4px;
+    border-right: 4px;
+    border-color: #0d0d0d;
+    color: #000000;
+    margin-top: 70px;
+    color: red;
+   
+  }

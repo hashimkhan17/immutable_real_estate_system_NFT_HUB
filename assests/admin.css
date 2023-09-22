@@ -1,0 +1,123 @@
+/* Styles for the sidebar */
+.sidebar {
+    background-color: #008CBA;
+    color: #fff;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 70px;
+    font-weight: 800px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ body
+ {
+  background-color: #f8f8f8;
+ }
+  
+  /* Styles for the container */
+  .container {
+    margin-left: 300px;
+    height: 730px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #000000;
+    border-style:outset;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Styles for the form */
+  form {
+    margin-bottom: 80px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 42.15%;
+  }
+  
+  /* Styles for the message box */
+  .message-box {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 38.4%;
+    margin-left: 29%;
+    margin-right: 30%;
+    margin-top: 20px;
+    border-style: solid;
+    border-left: 4px;
+    border-right: 4px;
+    border-color: #0d0d0d;
+    color: #000000;
+   
+  }
+   p{
+    width: fit-content;
+    max-width: 100%; /* You can adjust this value as needed */
+    word-wrap: break-word; 
+    
+    /* Add this property */
+}
+
+  .home-icon {
+    font-size: 40px;
+  }
